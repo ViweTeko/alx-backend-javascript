@@ -1,4 +1,4 @@
-/* Implement a class named HolbertonCourse*/
+/* Implement a class named HolbertonCourse */
 class HolbertonCourse {
   constructor(name, length, students) {
     this.name = name;
@@ -14,7 +14,7 @@ class HolbertonCourse {
     }
     this._name = name;
   }
-  
+
   /** Setter length */
   set length(length) {
     if (typeof length !== 'number') {
