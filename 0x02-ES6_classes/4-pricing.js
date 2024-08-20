@@ -36,8 +36,9 @@ class Pricing {
   }
 
   displayFullPrice() {
-    return `${this.amount} ${this.currency}`;
+    return `${this.amount} ${this.currency.displayFullCurrency()}`;
   }
+
   /**
    * @param {Number} amount
    * @param {Number} conversionRate
